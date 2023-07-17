@@ -11,13 +11,14 @@
     High-res laptop or desktop: 1920 x 1080.
 */
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1024px){ /* Para TABLET */
     main {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
     section#login {
         width: 80vw;
+        height: 318px;
     }
 
     section#login > div#imagem {
@@ -43,6 +44,7 @@
     
     section#login {
         width: 900px;
+        height: 325px;
     }
 
     section#login > div#imagem {
